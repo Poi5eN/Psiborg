@@ -31,6 +31,7 @@ This Task Management System is a full-stack web application designed by me, Gour
 - React Router for navigation
 
 ## Repository Structure
+https://github.com/Poi5eN/Psiborg
 
 
 ## Setup and Installation
@@ -41,3 +42,68 @@ This Task Management System is a full-stack web application designed by me, Gour
 - Git
 
 ### Backend Setup
+
+1. Clone the repository:
+git clone https://github.com/Poi5eN/psiborgbackend.git
+cd task-management-system/backend
+
+2. Install dependencies:
+npm install
+
+
+3. Create a `.env` file in the backend directory with the following variables:
+PORT=5000
+MONGODB_URI=
+JWT_SECRET=
+SMTP_MAIL=
+SMTP_PASSWORD=
+FRONTEND_URL=
+
+
+4. Start the backend server:
+npm start
+The backend server will start running on `http://localhost:5000`.
+
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+git clone https://github.com/Poi5eN/Psiborg.git
+
+
+2. Install dependencies:
+npm install
+
+
+3. Start the development server:
+npm run dev
+
+The frontend development server will start, typically on `http://localhost:3000`.
+
+
+## API Documentation
+
+For detailed API documentation, please refer to the `openapi.yaml` file in the `psiborg` directory. You can view this file using Swagger UI or any other OpenAPI-compatible tool.
+
+
+## Testing
+
+To run the backend tests:
+cd backend
+npm test
+
+To run the frontend tests:
+cd frontend
+npm test
+
+
+## Deployment
+
+### Backend Deployment
+Deployed on render for the backend service
+
+### Frontend Deployment
+Deployed on Netlify with the url: https://psiborg.netlify.app/
+
+
+Thank you for making your time and checking my task to the Task Management System :)
